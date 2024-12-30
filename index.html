@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghostxd company</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form">
+    <form>
+    <h1 class="logo">Big Zaddy Bro John Limited  </h1>
+    <p>Job application</p>
+    <p>
+      Firstname <br />
+    <input type="text" placeholder="Enter your Firstname" required>
+    </p>
+    <p> Lastname <br />
+    <input type="text" placeholder="Enter your Lastname" required>
+    </p>
+    <p> Email <br />
+    <input type="email" placeholder="example@domain.com" required>
+    </p>
+    <p> Phone Number <br />
+    <input type="number" placeholder="+234 123 4567 890" required>
+    </p>
+    
+    <select> 
+    <option value="Job position">Select position</option>
+    <option value="Househelp">Househelp</option>
+    <option value="Security Man">Security Man</option>
+    <option value="Danfo Driver">Danfo Driver</option>
+    <option value="Software Developer">Software Developer</option>
+    </select>
+    <div>
+    <p>Cover Letter</p>
+    <textarea name="" id="" cols="60" rows="5" placeholder="Please introduce yourself and explain why you are a good fit for the position." ></textarea>
+    </div>
+     <p>What is your current level of experience?</p>
+       <input type="radio" id="age1" name="age" class="nostyle"  value="Ent">
+       <label for="1">Entry Level</label><br>
+       <input type="radio" id="age2" name="age" class="nostyle"  value="Mid">
+       <label for="2">Mid Level</label><br>
+       <input type="radio" id="age3" name="age" class="nostyle"  value="Snr">
+       <label for="3">Senior Level</label><br><br>
+       
+       <p>Earliest Possible Start Date <br />
+         <input type="date" placeholder="DD.MM.YYYY" required/>
+       </p>
+       
+       <p>
+         <input type="checkbox" id="Checkbox" class="nostyle" required/> I consent to the privacy policy and terms of service.
+       </p>
+       
+       <p id="err"></p>
+       <center>
+         
+       <input type="submit" value="Submit" id="submit" class="button">
+      </center>
+  </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
